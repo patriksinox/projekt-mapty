@@ -1,0 +1,112 @@
+.jumboiko{
+    font-size: 4rem;
+    color: black;
+}
+
+#map{
+    height: 800px;
+    
+}
+
+.maptyinfo{
+    background-color: #2d3439;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 800px;
+}
+.maptyinfo::-webkit-scrollbar {
+    width: 0;
+  }
+
+.maptyoknoico{
+    color: green;
+    font-size: 3rem;
+}
+
+.leaflet-popup .leaflet-popup-content-wrapper{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.beh-popup .leaflet-popup-content-wrapper {
+    border-left: green 5px solid;
+}
+.bicykel-popup .leaflet-popup-content-wrapper{
+    border-left: orange 5px solid;
+}
+.leaflet-popup .leaflet-popup-content{
+    font-size: 1rem;
+    margin: 13px 19px 13px 7px !important;
+}
+
+.inputokno{
+    max-width:125px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(214, 222, 224);
+    border-radius: 5px;
+}
+.labelokno{
+    text-align: left;
+}
+form label{
+    font-size: 1.2rem;
+    width: 160px;
+    margin-right: 20px;
+    text-align: left;
+}
+form{
+    display: none;
+    background-color: #42484d;
+    border-radius: 10px;
+    padding: 15px 0px 0px 0px;
+    margin-bottom:0px;
+}
+.hidden{
+    height: 0;
+    opacity: 0;
+}
+
+
+.formapotvrd{
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    color: White;
+    background-color: green;
+    font-size: 1.3rem;
+    font-weight: 100;
+
+}
+.workout-info{
+    background-color: #42484d;
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.workout-info h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.flexik{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+/* Media */
+@media (max-width: 600px) {
+    #map{
+        min-height: 300px;
+        height: 300px;
+    }
+    .workout-info{
+        margin-bottom: 15px;
+    }
+    }
