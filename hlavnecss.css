@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Quicksand", "Fauna One", serif;
+  font-size: 16px;
+}
+h2 {
+  font-family: "MonteCarlo", cursive, Cinzel, serif;
+  font-size: 4rem;
+  margin-top: 50px;
+}
+/* Navigácia */
+.navbar {
+  background-color: white !important;
+}
+.nav-link {
+  font-size: 1.2rem;
+  padding-right: 40px;
+  color: black !important;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  padding: 10px;
+  font-family: "MonteCarlo", cursive;
+}
+.hlavnynapis {
+  font-size: 3.5rem;
+  padding: 0;
+}
+.podnapis {
+  font-size: 1.5rem;
+  margin-top: -15px;
+}
+/* Jumbotron */
+.jumbotron {
+  background-color: white;
+  margin: 0;
+  margin-bottom: 0px;
+}
+.jumbotron .lead {
+  margin-top: 100px !important;
+}
+#podpis {
+  margin-top: 100px;
+}
+.jumbotron h1 {
+  font-family: "MonteCarlo", cursive, Cinzel, serif;
+}
+.lead {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/* Projekty */
+.row {
+  margin: 0 !important;
+}
+.projektokno {
+  padding: 0;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+.popisprojektu {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.projektokno a:hover {
+  color: white;
+}
+/* O mne */
+.omne {
+  margin-top: 30px !important;
+}
+.omnetext {
+  text-indent: 20px;
+  padding: 0px 10px 10px 10px;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+}
+.omnetext::first-letter {
+  font-size: 1.6rem;
+}
+.mojafotka {
+  border-radius: 1%;
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+/* Kontakt */
+.bi {
+  padding: 5px;
+  padding-right: 10px;
+  font-size: 2.6rem;
+  color: black;
+}
+#domovhore {
+  font-size: 2rem !important;
+}
+.bi:hover {
+  color: darkblue;
+}
+#kontakt {
+  margin-bottom: 30px;
+}
+ul li {
+  font-size: 1.3rem;
+}
+ul li a {
+  color: black;
+}
+ul li a:hover {
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+
+  padding: 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.copy {
+  text-align: end;
+  align-self: center;
+}
+.motto {
+  font-family: "MonteCarlo", cursive, Cinzel, serif;
+  font-size: 1.9rem;
+}
+.schovane {
+  display: hidden;
+  -webkit-box-shadow: 0 0 0 0 #777;
+  -moz-box-shadow: 0 0 0 0 #777;
+  box-shadow: 0 0 0 0 #777;
+}
+.infobanka {
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.section {
+  transition: transform 1s, opacity 1s;
+}
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+.section-1 {
+  margin-top: 100px;
+}
+.section-3 {
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+  padding-bottom: 100px;
+}
+
+img {
+  transition: filter 0.5s;
+}
+
+.lazy-img {
+  filter: blur(20px);
+}
+
+/* Media */
+@media (max-width: 600px) {
+  footer,
+  .copy {
+    text-align: center !important;
+  }
+  .bi {
+    padding: 0 10px 0 0 !important;
+  }
+  ul li {
+    font-size: 1rem;
+  }
+  .kontaktul {
+    margin-left: 0px;
+  }
+  .posun {
+    width: auto;
+  }
+  .nav-item .nav-link {
+    padding: 5px 0 !important;
+    text-align: center !important;
+    padding-right: 0px !important;
+  }
+  .jumbotron {
+    padding: 2rem 2rem;
+  }
+  .jumbotron .lead {
+    width: auto;
+    margin-top: 50px !important;
+  }
+  .section-1 {
+    margin-top: 50px;
+  }
+  .section-3 {
+    padding-bottom: 50px;
+  }
+}
